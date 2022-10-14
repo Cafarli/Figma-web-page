@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap");
+@media screen and (max-width:480px){
+
+    main h3 {
+        font-size: 26px;
+        font-family: Roboto-Slab;
+        font-weight: 700;
+        margin-left: 5px;
+    }
+    .second h1 {
+        font-family: Roboto-Slab;
+        font-size: 37px;
+        font-weight: 700;
+    }
+    .second .text p {
+        font-size: 10px;
+        width: 212px;
+    }
+    .second li{
+        font-size: 10px;
+    }
+    .second img {
+        width: 40%;
+        margin-left: auto;
+        display: block;
+    }
+
+    /* aphorism */
+    .aphorism .sentence {
+        font-size: 11px;
+    }
+    .aphorism .author {
+        font-size: 10px;
+        bottom: 2%;
+        right: 5%;
+    }
+    .aphorism {
+        width: 40%;
+        margin: 10% 10% ;
+    }
+
+    /* third */
+
+    main .third article  {
+        width: 100%;
+    }
+
+    main .third article p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    main .third img {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    /* task */
+    main .task img {
+        display: none;
+    }
+    main .task .item h4{
+        font-size: 12px;
+    }
+    
+    main .task p{
+        font-weight: 400;
+        font-size: 10px;
+    }
+    main .task article .item{
+        width: 30%;
+    }
+
+
+    /* Fourth */
+    main .fourth .item {
+        width: 70%;
+        display: block;
+        padding-right: 10%;
+    }
+    main .fourth .item h4{
+        font-weight: 700;
+        font-size: 12px;
+        color: #1E4681;
+    }
+    main .fourth .item p{
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    /* Fifth */
+    main .fifth li {
+        font-size: 12px;
+        width: 95%;
+    }
+
+    /* Sixth */
+    main .sixth .item {
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    main .sixth .item .title{
+        font-size: 14px;
+        font-weight: 700;
+        padding: 0px 0px 0px 20px;
+    }
+    
+    main .sixth .item .detail{
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0px 0px 20px 20px;
+    }
+
+    /* seventh */
+    
+    .seventh .info {
+        margin: 0 auto;
+        width: 85%;
+    }
+    .seventh .info .text p {
+        font-size: 10px;
+    }
+    .seventh .info .author h4 {
+        font-size: 14px;
+    }
+
+    /* eighteen */
+    .eighteen h3{
+        width: 60%;
+    }
+
+    .eighteen .heading .price {
+        font-size: 12px;
+    }
+    
+    .eighteen .heading .value {
+        font-size: 37px;
+    }
+    .eighteen .text .content {
+        font-size: 10px;
+    }
+    
+    .eighteen .text .title {
+        font-size: 12px;
+    
+    }
+    .eighteen .text > div {
+        margin: 0 auto;
+    }
+    .eighteen .text > div {
+        width: 35%;
+    }
+
+    /* Footer */
+    .footer {
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    .footer .left, .right {
+        display: block;
+    }
+
+    .footer .right {
+        float: left;
+    }
+
+    .footer .left .socials a > img {
+        width: 14px;
+    }
+
+    .footer .right .phone, .mail{
+        font-size: 12px;
+    }
+
+    .footer .right img {
+        height: 9px;
+    }
+    
+    .footer .copyright {
+        font-size: 10px;
+        margin: 40% 0% 5% 0%;
+    }
+    .footer > div {
+        display: block;
+    }
+    
+}
